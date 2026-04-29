@@ -2,6 +2,9 @@
 
 A modern, dark-themed portfolio built with **Next.js 14** (App Router) and **Tailwind CSS**.
 
+[![Portfolio – Veervijaysinh](/assets/Veer-protfolio.png)](https://veervijaysinh-rana.vercel.app/)
+
+
 ## 🚀 Quick Start
 
 ```bash
