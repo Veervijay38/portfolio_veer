@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section id="about" className="py-24 px-6 bg-surface/30">
       <div className="max-w-6xl mx-auto">
-        <div className="mb-16">
+        <div className="mb-0.5">
           <p className="font-mono text-accent text-sm tracking-widest uppercase mb-3">
             01. About
           </p>
@@ -51,8 +51,15 @@ export default function About() {
           <div className="relative">
             <div className="bg-card border border-border rounded-3xl p-8 glow-border">
               <div className="text-center mb-8">
-                <div className="w-24 h-24 rounded-2xl bg-gradient-to-br from-accent to-purple-600 flex items-center justify-center text-3xl font-display font-bold text-white mx-auto mb-4">
+                {/* <div className="w-24 h-24 rounded-2xl bg-gradient-to-br from-accent to-purple-600 flex items-center justify-center text-3xl font-display font-bold text-white mx-auto mb-4">
                   VR
+                </div> */}
+                <div className="w-40 h-40 rounded-2xl bg-gradient-to-br from-teal to-teal-light flex items-center justify-center overflow-hidden mx-auto mb-2">
+                  <img
+                    src="/veer_profile.png"
+                    alt="Profile"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <h3 className="font-display font-bold text-xl text-text">
                   {veerData.name}

@@ -1,6 +1,6 @@
 "use client";
 
-import { Github, Linkedin, Mail, ArrowDown, ExternalLink } from "lucide-react";
+import { Github, Linkedin, Mail, ArrowDown, ExternalLink, DownloadIcon } from "lucide-react";
 import { veerData } from "@/lib/data";
 import { useRef } from "react";
 import Lottie from "lottie-react";
@@ -99,16 +99,43 @@ export default function Hero() {
             className="flex flex-wrap gap-4 justify-center md:justify-start mb-5 animate-fade-up"
             style={{ animationDelay: "0.5s", opacity: 0 }}
           >
+            {/* <div className="flex gap-3 justify-center">
+              {[
+                { icon: ExternalLink, href: "#projecys", label: "Projects" },
+
+                { icon: DownloadIcon, href: "/Janki-Rana-Resume.pdf", label: "Resume", },
+                { icon: Mail, href:"#contact", label: "Get In Touch" },
+              ].map(({ icon: Icon, href, label }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 px-6 py-3 bg-accent hover:bg-accent-light rounded-xl text-white font-medium transition-all duration-200 hover:shadow-lg hover:shadow-accent/25 hover:-translate-y-0.5"
+                  aria-label={label}
+                >
+                  <Icon size={16} />
+                  {label}
+                </a>
+              ))}
+            </div> */}
             <a
               href="#projects"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-accent hover:bg-accent-light rounded-xl text-white font-medium transition-all duration-200 hover:shadow-lg hover:shadow-accent/25 hover:-translate-y-0.5"
+              className="inline-flex items-center gap-1 px-6 py-3 bg-accent hover:bg-accent-light rounded-xl text-white font-medium transition-all duration-200 hover:shadow-lg hover:shadow-accent/25 hover:-translate-y-0.5"
             >
               View Projects
               <ExternalLink size={16} />
             </a>
             <a
+              href="/Veervijaysinh_Rana_CV.pdf"
+              className="inline-flex items-center gap-1 px-6 py-3 bg-accent hover:bg-accent-light rounded-xl text-white font-medium transition-all duration-200 hover:shadow-lg hover:shadow-accent/25 hover:-translate-y-0.5"
+            >
+              Resume
+              <DownloadIcon size={16} />
+            </a>
+            <a
               href="#contact"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-surface border border-border hover:border-accent/50 rounded-xl text-text font-medium transition-all duration-200 hover:-translate-y-0.5"
+              className="inline-flex items-center gap-1 px-6 py-3 bg-surface border border-border hover:border-accent/50 rounded-xl text-text font-medium transition-all duration-200 hover:-translate-y-0.5"
             >
               Get In Touch
               <Mail size={16} />
