@@ -167,7 +167,7 @@ export default function Hero() {
         </div>
 
         {/* ----- RIGHT SIDE – Lottie animation ----- */}
-        <div className="flex-1 md:block w-full max-w-md">
+        <div className="flex-1 hidden md:block w-full max-w-md">
           {/* The Lottie component will keep its intrinsic aspect‑ratio */}
           <Lottie
             lottieRef={lottieRef}
