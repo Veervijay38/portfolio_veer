@@ -16,8 +16,8 @@ export const veerData = {
   stats: [
     { label: "Years Experience", value: "7+" },
     { label: "Apps Shipped", value: "10+" },
-    { label: "React Native", value: "4.5yr" },
-    { label: "AWS Services", value: "8+" },
+    { label: "React Native", value: "4 yr" },
+    { label: "ReactJs", value: "3.5 yr" },
   ],
 
   skills: {
@@ -52,15 +52,17 @@ export const veerData = {
 
   experience: [
     {
-      company: "Bimbo Canada",
-      role: "Production Supervisor",
+      company: "Wipro Limited",
+      role: "Software Developer",
       period: "Jul 2023 – Present",
       location: "Hamilton, Ontario",
       highlights: [
-        "Achieved 40% improvement in production efficiency by monitoring automated tortilla lines",
-        "Ensured 100% compliance with safety and quality standards",
-        "Led 10+ operators, ensuring tasks executed on time per operational goals",
-        "Implemented 5S and Lean manufacturing principles, reducing material waste",
+        "Spearheaded the front-end migration of a legacy enterprise dashboard to React.js, achieving 100% project completion within the designated 6-month roadmap.",
+        "Improved web vitals and initial load times by 35% by implementing code-splitting, lazy loading, and memoization techniques for complex data grids.",
+        "Developed a library of 20+ reusable UI components using TypeScript and Tailwind CSS, increasing development velocity for cross-functional teams by 40%.",
+        "Integrated Redux Toolkit for centralized state management, reducing data-syncing bugs across the platform by 25%.",
+        "Successfully integrated RESTful APIs and GraphQL endpoints for real-time data visualization, ensuring 100% data accuracy across client-facing reports.",
+        "Maintained a 98% unit test coverage using Jest and React Testing Library, significantly reducing production hotfixes."
       ],
     },
     {
@@ -104,19 +106,19 @@ export const veerData = {
 
   projects: [
     {
-      name: "APPSCoT",
+      name: "Nexus One",
       description:
-        "A fully-featured mobile application deployed on Google Play Store. Built with React Native, ensuring smooth performance across Android devices.",
-      tech: ["React Native", "TypeScript", "Redux"],
-      link: "https://play.google.com/store/apps/details?id=com.AppSCot92",
+        "Elante NexusOne app is the official app of Elante Mall Chandigarh designed to bring the best shopping, entertainment and dining experience to you,The app helps you access a host of special features like the store directory, your favourite brand's list, events, offers, discounts, benefits and mall directions anytime and anyplace!",
+      tech: ["React Native", "Firebase", "Redux"],
+      link: "https://play.google.com/store/apps/details?id=com.nexusmalls.elantenexusone",
       type: "Mobile App",
     },
     {
-      name: "Nexus One",
+      name: "HP Saksham",
       description:
-        "Shopping mall experience app for Nexus Malls. Deployed to Google Play with features for offers, navigation, and store discovery.",
-      tech: ["React Native", "Firebase", "Redux"],
-      link: "https://play.google.com/store/apps/details?id=com.nexusmalls.elantenexusone",
+        "To create a customized one stop technology solution for partners in order to enable them to interact with each other along with complete visibility on purchase/Sales/Inventory data and more. This platform will be a holistic tool providing host of features to the partners.",
+      tech: ["React Native", "TypeScript", "Redux"],
+      link: "https://play.google.com/store/apps/details?id=com.hp.saksham",
       type: "Mobile App",
     },
     {
@@ -133,23 +135,24 @@ export const veerData = {
         "Full-stack Airbnb clone built with Next.js, Tailwind, Prisma, MongoDB and NextAuth. Demonstrates advanced web development skills.",
       tech: ["Next.js", "Tailwind CSS", "Prisma", "MongoDB", "NextAuth"],
       link: "https://veer-rent-house.vercel.app/",
-      type: "Web App",
+      type: "Full Stack",
     },
-    {
-      name: "ResQR",
-      description:
-        "Medical emergency QR code application enabling first responders to access patient data instantly. Live on Google Play.",
-      tech: ["React Native", "Firebase", "QR Integration"],
-      link: "https://play.google.com/store/apps/details?id=com.resqr",
-      type: "Mobile App",
-    },
+
     {
       name: "Gativan",
       description:
         "Automobile service platform with React Native mobile app and React.js website. Integrated Redis and MongoDB for optimized performance.",
       tech: ["React Native", "React.js", "Redis", "MongoDB"],
-      link: "https://www.gativan.in/",
-      type: "Full Stack",
+      link: "https://play.google.com/store/apps/details?id=com.KStudio.Gativan",
+      type: "Mobile App",
+    },
+    {
+      name: "ResQR",
+      description:
+        "Attach resQR to keys, computers, phones, passports, luggage, wallets credit cards sunglasses and anything valuable.",
+      tech: ["React Native", "Firebase", "QR Integration"],
+      link: "https://play.google.com/store/apps/details?id=com.resqr",
+      type: "Mobile App",
     },
   ],
 

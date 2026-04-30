@@ -3,13 +3,14 @@
 import { Github, Linkedin, Mail, ArrowDown, ExternalLink } from "lucide-react";
 import { veerData } from "@/lib/data";
 import { useRef } from "react";
-
 import Lottie from "lottie-react";
 import heroAnim from "@/assets/programming.json";
 
 
 export default function Hero() {
+
   const lottieRef = useRef<any>(null);
+
   return (
     <section className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden">
       <div
@@ -139,7 +140,7 @@ export default function Hero() {
         </div>
 
         {/* ----- RIGHT SIDE – Lottie animation ----- */}
-        <div className="flex-1 hidden md:block w-full max-w-md">
+        <div className="flex-1 md:block w-full max-w-md">
           {/* The Lottie component will keep its intrinsic aspect‑ratio */}
           <Lottie
             lottieRef={lottieRef}
@@ -153,10 +154,8 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* ---------------------------------------------------------
-          3️⃣  Scroll indicator (still absolute at bottom)
-          ---------------------------------------------------------- */}
-      <div className="absolute bottom-12 -translate-x-1/2 flex flex-col items-center gap-2 text-text-secondary animate-float">
+
+      <div className="absolute bottom-2 -translate-x-1/2 flex flex-col items-center gap-2 text-text-secondary animate-float">
         <span className="text-xs tracking-widest uppercase font-mono">
           Scroll
         </span>
