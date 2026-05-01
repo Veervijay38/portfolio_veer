@@ -5,6 +5,8 @@ import { veerData } from "@/lib/data";
 import { useRef } from "react";
 import Lottie from "lottie-react";
 import heroAnim from "@/assets/programming.json";
+import { Typewriter } from "react-simple-typewriter";
+
 
 
 export default function Hero() {
@@ -61,9 +63,17 @@ export default function Hero() {
           >
             <div className="h-px w-12 bg-border" />
             <p className="font-mono text-accent-light text-sm tracking-wider">
-              {veerData.tagline}
+              <Typewriter
+                words={veerData.typewriterWords}
+                cursor
+                cursorStyle="_"
+                typeSpeed={100}
+                deleteSpeed={50}
+                loop={10}
+                delaySpeed={500}
+              />
             </p>
-            <div className="h-px w-12 bg-border" />
+            {/* <div className="h-px w-12 bg-border" /> */}
           </div>
 
           {/* Bio */}

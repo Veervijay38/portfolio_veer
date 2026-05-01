@@ -2,7 +2,7 @@ export const veerData = {
   name: "Veervijaysinh Rana",
   shortName: "Veervijay",
   title: "Sr. Software Developer",
-  tagline: "React Native & Frontend Engineer",
+
   location: "Stoney Creek, Ontario, Canada",
   email: "virajrana123@gmail.com",
   phone: "+1 (365) 356-3894",
@@ -18,6 +18,20 @@ export const veerData = {
     { label: "Apps Shipped", value: "10+" },
     { label: "React Native", value: "4 yr" },
     { label: "ReactJs", value: "3.5 yr" },
+  ],
+  typewriterWords: [
+    "Software Developer",
+    "React Native Developer",
+    "ReactJs Developer",
+    "NodeJs Developer",
+    "MERN Stack Developer",
+    "Self Learner",
+    "Full‑Stack Engineer",
+    "Frontend Engineer",
+    "Tech Enthusiast",
+    "Problem Solver",
+    "UI/UX Passionate",
+    "Performance Optimizer",
   ],
 
   skills: {
