@@ -40,11 +40,19 @@ const config: Config = {
         float: "float 6s ease-in-out infinite",
         glow: "glow 3s ease-in-out infinite",
         "slide-in": "slideIn 0.5s ease forwards",
+        typewriter: 'typewriter 2s steps(20) forwards',
+        caret: 'blink 1s step-end infinite',
       },
       keyframes: {
         fadeUp: {
           from: { opacity: "0", transform: "translateY(24px)" },
           to: { opacity: "1", transform: "translateY(0)" },
+        },
+        typewriter: {
+          to: { width: '100%' },
+        },
+        blink: {
+          '50%': { borderColor: 'transparent' },
         },
         fadeIn: {
           from: { opacity: "0" },
@@ -63,6 +71,7 @@ const config: Config = {
           to: { opacity: "1", transform: "translateX(0)" },
         },
       },
+
     },
   },
   plugins: [],

@@ -36,7 +36,7 @@ export default function Hero() {
         <div className="flex-1 text-center md:text-left max-w-xl">
           {/* Badge */}
           <div className="inline-flex mt-10 items-center gap-2 px-4 py-2 rounded-full bg-accent/10 border border-accent/25 text-accent-light text-xs font-mono tracking-widest mb-8 animate-fade-up">
-            <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse" />
+            <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
             Available for opportunities
           </div>
 
@@ -61,8 +61,8 @@ export default function Hero() {
             className="flex items-center justify-center md:justify-start gap-3 mb-5 animate-fade-up"
             style={{ animationDelay: "0.2s", opacity: 0 }}
           >
-            <div className="h-px w-12 bg-border" />
-            <p className="font-mono text-accent-light text-sm tracking-wider">
+            {/* <div className="h-px w-12 bg-border" /> */}
+            <p className="font-mono text-accent-light text-base tracking-wider">
               <Typewriter
                 words={veerData.typewriterWords}
                 cursor
@@ -137,7 +137,7 @@ export default function Hero() {
               <ExternalLink size={16} />
             </a>
             <a
-              href="/Veervijaysinh_Rana_CV.pdf"
+              href="https://flowcv.com/resume/u74d46atwh"
               className="inline-flex items-center gap-1 px-6 py-3 bg-accent hover:bg-accent-light rounded-xl text-white font-medium transition-all duration-200 hover:shadow-lg hover:shadow-accent/25 hover:-translate-y-0.5"
             >
               Resume

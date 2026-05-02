@@ -32,6 +32,14 @@ export default function Projects() {
                 key={project.name}
                 className="bg-card border border-border rounded-2xl p-6 flex flex-col card-hover group"
               >
+                  {/* Project Image Section */}
+                  {/* <div className="h-48 overflow-hidden bg-gray-900">
+                    <img
+                      src={"Veer-protfolio.png"}
+                      alt="Project Screenshot"
+                      className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+                    />
+                  </div> */}
                 {/* Top row */}
                 <div className="flex items-start justify-between mb-4">
                   <div className="p-2.5 bg-accent/10 rounded-xl border border-accent/20">
